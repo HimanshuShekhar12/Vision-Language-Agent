@@ -1,0 +1,63 @@
+# ─────────────────────────────────────────
+# Vision-Language-Agent — Requirements
+# Project: Multimodal AI Agent
+# Python: 3.10
+# ─────────────────────────────────────────
+
+# ── Core Deep Learning ──────────────────
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+
+# ── HuggingFace Ecosystem ───────────────
+transformers==4.37.0
+datasets==2.16.0
+accelerate==0.26.0
+diffusers==0.25.0
+peft==0.7.1
+tokenizers==0.15.0
+
+# ── CLIP & Vision ───────────────────────
+open-clip-torch==2.23.0
+timm==0.9.12
+
+# ── MS-COCO Dataset ─────────────────────
+pycocotools==2.0.7
+
+# ── Image Processing ────────────────────
+Pillow==10.2.0
+opencv-python==4.9.0.80
+albumentations==1.3.1
+
+# ── Data & Scientific Computing ─────────
+numpy==1.26.3
+pandas==2.2.0
+scipy==1.12.0
+scikit-learn==1.4.0
+
+# ── Visualization ───────────────────────
+matplotlib==3.8.2
+seaborn==0.13.2
+
+# ── Agent & LLM Orchestration ───────────
+langchain==0.1.0
+langchain-community==0.0.13
+openai==1.10.0
+anthropic==0.15.0
+
+# ── Vector Database (Memory) ────────────
+chromadb==0.4.22
+faiss-cpu==1.7.4
+
+# ── Experiment Tracking ─────────────────
+wandb==0.16.2
+
+# ── UI & Deployment ─────────────────────
+gradio==4.14.0
+streamlit==1.30.0
+
+# ── Utilities ───────────────────────────
+tqdm==4.66.1
+python-dotenv==1.0.0
+requests==2.31.0
+einops==0.7.0
